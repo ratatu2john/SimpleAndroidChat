@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ChatClient</string>
+    <string name="connect">Connect</string>
+    <string name="port_hint">Port</string>
+    <string name="connection_hint">IP/Hostname</string>
+    <string name="message">Your message</string>
+    <string name="send_message">Send message</string>
+</resources>
