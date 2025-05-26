@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="670dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344">
+
+
+        <TextView
+            android:id="@+id/logTextView"
+            android:layout_width="match_parent"
+            android:layout_height="512dp"
+            android:background="@color/button"
+            android:fontFamily="monospace"
+            android:textColor="@color/background"
+            android:textSize="16sp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/inputMessageField"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/button"
+            android:ems="10"
+            android:fontFamily="@font/basic"
+            android:hint="@string/message"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="256dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="@color/button"
+            android:fontFamily="@font/basic"
+            android:text="@string/send_message"
+            android:textColor="@color/background"
+            android:textSize="24sp"
+            app:cornerRadius="10dp" />
+
+
+        <EditText
+            android:id="@+id/inputAddressField"
+            android:layout_width="256dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:background="@color/button"
+            android:ems="10"
+            android:fontFamily="@font/basic"
+            android:hint="@string/connection_hint"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/inputPortField"
+            android:layout_width="256dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:background="@color/button"
+            android:fontFamily="@font/basic"
+            android:hint="@string/port_hint"
+            android:inputType="numberDecimal"
+            android:maxEms="5"
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/connectButton"
+            android:layout_width="256dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/button"
+            android:fontFamily="@font/basic"
+            android:text="@string/connect"
+            android:textColor="@color/background"
+            android:textSize="24sp"
+            app:cornerRadius="10dp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

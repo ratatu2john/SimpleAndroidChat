@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChatServer</string>
+    <string name="start_server_button">Start server</string>
+    <string name="stop_server_button">Stop server</string>
+</resources>
