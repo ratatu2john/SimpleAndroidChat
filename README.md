@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/a99b8900-ce1e-4260-8730-92db9bce2c99
 
 
 
-A simple Android chat application demonstrating client-server architecture using Java multithreading. The project consists of two parts: a **server** (handles connections and messaging) and a **client** (user interface for chatting).
+A simple Android chat application (based on [SimpleChat](https://github.com/ratatu2john/SimpleChat)) demonstrating client-server architecture using Java multithreading. The project consists of two parts: a **server** (handles connections and messaging) and a **client** (user interface for chatting).
 
 ## Key Features
 
